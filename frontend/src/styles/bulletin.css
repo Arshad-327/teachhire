@@ -1,0 +1,33 @@
+/* Bulletin module — institution feed, posting, my bulletins */
+
+/* category badges — extend the .status-badge system from hire.css */
+
+.status-badge-admission {
+  background-color: var(--color-primary-tint);
+  color: var(--color-primary-dark);
+}
+
+.status-badge-announcement {
+  background-color: var(--color-secondary-tint);
+  color: var(--color-secondary-dark);
+}
+
+.bulletin-card-preview {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--color-ink-soft);
+  margin-top: 0.25rem;
+}
+
+/* my bulletins — expired styling + delete action */
+
+.bulletin-item-expired {
+  opacity: 0.55;
+}
+
+.bulletin-item-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
